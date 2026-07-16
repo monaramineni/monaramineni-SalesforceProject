@@ -3,6 +3,6 @@ trigger Test on Account (before insert,before update) {
         if (a.AnnualRevenue>1000000){
             a.Rating='Hot';
         } 
-            
+            mona
     }*/
 }
